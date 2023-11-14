@@ -1,0 +1,12 @@
+ENUN:
+--> caja de valores predeterminados, se usan como datos.
+
+DBContext
+--> una clase que funciona como manual de instrucciones para el ORM de cómo crear la base. 
+Las tablas, sus relaciones, los datos que deben tener.
+Hereda de : DBContext que se instala Microsoft.entity.framework.core
+luego seteamos que tablas van a ser nuestras propiedades
+DbSet --> similar a una tabla, es un objeto que funciona / hacer referencia a una tabla
+
+Todas las entidades son tablas. NO
+Quién instancia el dbContext? 
