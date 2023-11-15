@@ -4,8 +4,8 @@ namespace Api.Models.Responses
 {
     public class ResponseForCreationDto
     {
-        /*[Required]
+        [Required]
         [MaxLength(2000)]
-        public string Message { get; set; } = string.Empty;*/
+        public string Message { get; set; } = string.Empty;
     }
 }
