@@ -1,7 +1,7 @@
 ﻿using Api.Data.Interfaces;
 using Api.DBContext;
 using Api.Entities;
-using Microsoft.EntityFrameworkCore;
+using static Api.Data.Implementation.SupportRepository;
 
 namespace Api.Data.Implementation
 {
@@ -11,11 +11,6 @@ namespace Api.Data.Implementation
         {
         }
 
-        public Support? GetProfessorById(int userId) => _context.Support.Find(userId);
-
-        public Support? GetSupportById(int userId)
-        {
-            throw new NotImplementedException();
-        }
+        public Support? GetSupportById(int userId) => _context.Supports.Find(userId);
     }
 }

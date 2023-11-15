@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Data\Implementation\" />
     <Folder Include="Profiles\" />
     <Folder Include="Services\Implementations\" />
   </ItemGroup>
