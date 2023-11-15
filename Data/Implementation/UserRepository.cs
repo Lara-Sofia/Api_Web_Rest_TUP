@@ -1,6 +1,7 @@
 ﻿using Api.Data.Interfaces;
 using Api.DBContext;
 using Api.Entities;
+using Api.Models;
 
 namespace Api.Data.Implementation
 {
@@ -21,5 +22,6 @@ namespace Api.Data.Implementation
                 return _context.Customers.FirstOrDefault(p => p.UserName == authRequestBody.UserName && p.Password == authRequestBody.Password);
             return _context.Supports.FirstOrDefault(p => p.UserName == authRequestBody.UserName && p.Password == authRequestBody.Password);
         }
+
     }
 }

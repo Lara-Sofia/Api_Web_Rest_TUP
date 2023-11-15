@@ -4,6 +4,6 @@ namespace Api.Models.Consults
 {
     public class ConsultationStatusDto
     {
-        /*public ConsultationState Status { get; set; }*/
+        public ConsultationState Status { get; set; }
     }
 }

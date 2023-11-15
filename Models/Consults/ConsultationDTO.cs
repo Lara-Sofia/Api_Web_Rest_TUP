@@ -4,7 +4,7 @@ using Api.Models.Responses;
 namespace Api.Models.Consults
 {
     public class ConsultationDTO
-    {/*
+    {
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
@@ -15,6 +15,6 @@ namespace Api.Models.Consults
         public ConsultationState ConsultationState { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime? EndDate { get; set; }
-        public DateTime? LastModificationDate { get; set; }*/
+        public DateTime? LastModificationDate { get; set; }
     }
 }

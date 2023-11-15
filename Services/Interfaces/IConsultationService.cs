@@ -3,7 +3,7 @@ using Api.Models.Consults;
 
 namespace Api.Services.Interfaces
 {
-    public interface IQuestionService
+    public interface IConsultationService
     {
         ConsultationDTO CreateConsultation(ConsultationForCreationDto newConsultation, int userId);
         ConsultationDTO GetConsultation(int consultationId);

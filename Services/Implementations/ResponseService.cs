@@ -1,4 +1,6 @@
-﻿using Api.Models.Responses;
+﻿using Api.Data.Interfaces;
+using Api.Entities;
+using Api.Models.Responses;
 using Api.Services.Interfaces;
 using AutoMapper;
 
@@ -8,25 +10,25 @@ namespace Api.Services.Implementations
     {
         private readonly IMapper _mapper;
         private readonly IResponseRepository _responseRepository;
-        private readonly IQuestionService _questionService;
+        private readonly IConsultationService _consultationService;
 
-        public ResponseService(IMapper mapper, IResponseRepository responseRepository, IQuestionService questionService)
+        public ResponseService(IMapper mapper, IResponseRepository responseRepository, IConsultationService consultationService)
         {
             this._mapper = mapper;
             this._responseRepository = responseRepository;
-            this._questionService = questionService;
+            this._consultationService = consultationService;
         }
-        public ResponseDTO CreateResponse(ResponseForCreationDto newResponse, int questionId, int userId)
+        public ResponseDTO CreateResponse(ResponseForCreationDto newResponse, int consultationId, int userId)
         {
             var response = _mapper.Map<Response>(newResponse);
 
-            response.QuestionId = questionId;
+            response.ConsultationId = consultationId;
             response.CreatorId = userId;
 
             _responseRepository.AddResponse(response);
             _responseRepository.SaveChanges();
 
-            _questionService.ChangeQuestionStatus(questionId);
+            _consultationService.ChangeConsultationStatus(consultationId);
 
             return _mapper.Map<ResponseDTO>(response);
         }
