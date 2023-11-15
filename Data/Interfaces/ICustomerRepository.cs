@@ -1,6 +1,10 @@
-﻿namespace Api.Data.Interfaces
+﻿using Api.Entities;
+
+namespace Api.Data.Interfaces
 {
-    public interface ICustomerRepository
+    public interface ICustomerRepository 
     {
+        Customer? GetCustomerById(int userId);
+        //ICollection<Customer> GetStudentSubjects(int studentId);
     }
 }
