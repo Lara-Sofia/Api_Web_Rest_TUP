@@ -9,9 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Api
 build_property.RootNamespace = Api
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\Principal\Desktop\Facultad\Programacion 3\Api_Web_Rest_TUP\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Principal\Desktop\Facultad\Programacion 3\Api_Web_Rest_TUP
+=======
 build_property.ProjectDir = C:\SourceCode\UTN\TPi P3\Api_Web_Rest_TUP\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\SourceCode\UTN\TPi P3\Api_Web_Rest_TUP
+>>>>>>> 785997d47fd96f0069c09b8b538a40d71dc79292
 build_property._RazorSourceGeneratorDebug = 
