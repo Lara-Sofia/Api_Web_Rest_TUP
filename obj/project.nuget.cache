@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "B4Y9OkBnLoe5B8/S7jeYW8g5mXwAQtWuP5vnDzbZYwJFKLsdXi+FwVGFn4n7/ulF14z7ekOMhzm8F1L5kXdWeA==",
+  "dgSpecHash": "uYzqj0x0d/jlZFWE8UrZ0u9+vpAVDDMODzdGDrcdqGpViG4ah/hZaRPpXQ+D4qhtytcdyMHgXdfNydLKyHLXtw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Principal\\Desktop\\Facultad\\Programacion 3\\Api_Web_Rest_TUP\\Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Principal\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Principal\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Principal\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Principal\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Principal\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\Principal\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Principal\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Principal\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "C:\\Users\\Principal\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.1.0\\microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "C:\\Users\\Principal\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.13\\microsoft.data.sqlite.core.7.0.13.nupkg.sha512",
