@@ -1,4 +1,7 @@
-﻿using Api.Entities;
+﻿using Api.Data.Interfaces;
+using Api.Entities;
+using Api.Models;
+using Api.Services.Interfaces;
 
 namespace Api.Services.Implementations
 {
@@ -6,7 +9,7 @@ namespace Api.Services.Implementations
     {
         private readonly IUserRepository _userRepository;
 
-        public AutenticacionService(IUserRepository userRepository)
+        public AutenticationService(IUserRepository userRepository)
         {
             _userRepository = userRepository;
         }
