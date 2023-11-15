@@ -10,9 +10,10 @@ namespace Api.Entities
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        [ForeignKey("SupportId")]
+        [ForeignKey("AssignedSupportId")]
         public Support AssignedSupport { get; set; }
-        public int SupportId { get; set; }
+        public int AssignedSupportId { get; set; }
+
         [ForeignKey("CreatorCustomerId")]
         public Customer Customer { get; set; }
         public int CreatorCustomerId { get; set; }

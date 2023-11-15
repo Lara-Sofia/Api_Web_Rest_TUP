@@ -2,6 +2,6 @@
 {
     public interface ICustomerServices
     {
-        ICollection<SubjectDto> GetSubjectsByStudent(int studentId);
+       // ICollection<SubjectDto> GetSubjectsByStudent(int studentId);
     }
 }

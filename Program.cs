@@ -12,7 +12,7 @@ builder.Services.AddSwaggerGen();
 
 
 builder.Services.AddDbContext<CustumerCosultationContext>(dbContextOptions => dbContextOptions.UseSqlite(
-    builder.Configuration["ConnectionStrings:ApiDBConnectionString"]));
+    builder.Configuration["DB:ConnectionString"]));
 
 
 var app = builder.Build();

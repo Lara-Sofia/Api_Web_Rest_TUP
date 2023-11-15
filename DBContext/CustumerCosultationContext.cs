@@ -79,7 +79,7 @@ namespace Api.DBContext
             modelBuilder.Entity<Consultation>() // relación C con Soporte
                 .HasOne(c => c.AssignedSupport) // una persona de soporte
                 .WithMany() // soporte tiene varias C
-                .HasForeignKey(c => c.SupportId); // C tiene soporteId 
+                .HasForeignKey(c => c.AssignedSupportId); // C tiene soporteId 
 
             modelBuilder.Entity<Consultation>() // relación C con cliente
                 .HasOne(c => c.Customer) // un cliente 
