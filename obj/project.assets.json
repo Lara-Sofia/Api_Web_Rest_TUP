@@ -3644,19 +3644,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Larata\\.nuget\\packages\\": {}
+    "C:\\Users\\Principal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Larata\\Desktop\\Api\\Api.csproj",
+      "projectUniqueName": "C:\\Users\\Principal\\Desktop\\Facultad\\Programacion 3\\Api_Web_Rest_TUP\\Api.csproj",
       "projectName": "Api",
-      "projectPath": "C:\\Users\\Larata\\Desktop\\Api\\Api.csproj",
-      "packagesPath": "C:\\Users\\Larata\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Larata\\Desktop\\Api\\obj\\",
+      "projectPath": "C:\\Users\\Principal\\Desktop\\Facultad\\Programacion 3\\Api_Web_Rest_TUP\\Api.csproj",
+      "packagesPath": "C:\\Users\\Principal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Principal\\Desktop\\Facultad\\Programacion 3\\Api_Web_Rest_TUP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Larata\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Principal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3734,7 +3734,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
