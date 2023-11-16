@@ -123,3 +123,4 @@ C:\SourceCode\UTN\TPi P3\Api_Web_Rest_TUP\obj\Debug\net6.0\Api.MvcApplicationPar
 C:\SourceCode\UTN\TPi P3\Api_Web_Rest_TUP\obj\Debug\net6.0\Api.dll
 C:\SourceCode\UTN\TPi P3\Api_Web_Rest_TUP\obj\Debug\net6.0\refint\Api.dll
 C:\SourceCode\UTN\TPi P3\Api_Web_Rest_TUP\obj\Debug\net6.0\Api.pdb
+C:\Users\Larata\Desktop\Api\bin\Debug\net6.0\AutoMapper.dll

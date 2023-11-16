@@ -8,7 +8,7 @@ namespace Api.Models.Consults
         public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public int SupportId { get; set; }
+        public int AssignedSupportId { get; set; }
         public int CreatorCustomerId { get; set; }
         //public int SubjectId { get; set; }
         public ICollection<ResponseDTO> Responses { get; set; } = new List<ResponseDTO>();
