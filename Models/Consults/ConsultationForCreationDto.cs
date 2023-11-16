@@ -10,7 +10,7 @@ namespace Api.Models.Consults
         public string Description { get; set; }
         [Required]
         public int ProfessorId { get; set; }
-        [Required]
-        public int SubjectId { get; set; }
+        //[Required]
+        //public int SubjectId { get; set; }
     }
 }
