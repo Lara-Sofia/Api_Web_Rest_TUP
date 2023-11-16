@@ -9,8 +9,11 @@
       "Api/1.0.0": {
         "dependencies": {
           "AutoMapper": "12.0.1",
+<<<<<<< HEAD
           "JWT": "10.1.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.25",
+=======
+>>>>>>> aa36cd7775041efac96edd6021d5f87e57dcf8fc
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.Design": "7.0.13",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.13",
@@ -460,7 +463,13 @@
       },
       "Microsoft.IdentityModel.Tokens/7.0.3": {
         "dependencies": {
+<<<<<<< HEAD
           "Microsoft.IdentityModel.Logging": "7.0.3"
+=======
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.IdentityModel.Logging": "6.24.0",
+          "System.Security.Cryptography.Cng": "5.0.0"
+>>>>>>> aa36cd7775041efac96edd6021d5f87e57dcf8fc
         },
         "runtime": {
           "lib/net6.0/Microsoft.IdentityModel.Tokens.dll": {
