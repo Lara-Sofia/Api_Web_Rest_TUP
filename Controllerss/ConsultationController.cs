@@ -37,5 +37,23 @@ namespace Api.Controllerss
             return Ok(consult);
         }
 
+        [HttpPost]
+        public ActionResult<ConsultationDTO> Post(int consultationId)
+        {
+            //lala 
+        }
+
+        [HttpPut]
+        public ActionResult <ConsultationDTO> Put(int consultationId)
+        {
+            //lala 
+        }
+
+        [HttpDelete]
+        public ActionResult<ConsultationDTO> Delete(int consultationId)
+        {
+            //lala 
+        }
+
     }
 }

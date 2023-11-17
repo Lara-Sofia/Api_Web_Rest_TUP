@@ -1,4 +1,5 @@
-﻿using Api.Models.Responses;
+﻿using Api.Models;
+using Api.Models.Responses;
 using Api.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -21,7 +22,7 @@ namespace Api.Controllerss
         }
 
         [HttpGet("{responseId}", Name = "GetResponse")]
-        public ActionResult<ResponseDTO> GetQuestion(int responseId)
+        public ActionResult<ResponseDTO> GetConsultation(int responseId)
         {
             var response = _responseService.GetResponse(responseId);
 
@@ -45,6 +46,20 @@ namespace Api.Controllerss
                 "GetResponse",
                 new { consultId = consultId, responseId = newResponse.Id },
                 newResponse);
+        }
+
+      
+
+        [HttpPut]
+        public ActionResult<ResponseDTO> Put(int consultationId)
+        {
+            //lala 
+        }
+
+        [HttpDelete]
+        public ActionResult<ResponseDTO> Delete(int consultationId)
+        {
+            //lala 
         }
     }
 }
